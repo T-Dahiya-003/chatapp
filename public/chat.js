@@ -7,7 +7,7 @@ const users = document.querySelector('.users');
 
 //Socket server URL
 
-const socket = io.connect('http://localhost:3000');
+const socket = io.connect('https://chat-app-07.herokuapp.com/');
 
 //Fetch URL Params from URL
 const queryString = window.location.search;
