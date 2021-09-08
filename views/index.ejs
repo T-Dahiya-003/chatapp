@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Chat-App</title>
+    <style>
+    .content{
+    background-image:url("https://images.unsplash.com/photo-1518691340140-512e66ce957b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div>
+            <p>CHAT IT OUT</p>
+            <form action="/room" method="POST">
+                <input type="text" placeholder="Enter Name" class="username" name="username" required>
+                <input type="text" placeholder="Enter Room" class="roomname" name="roomname" required>
+                <input type="submit" value="Enter">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
